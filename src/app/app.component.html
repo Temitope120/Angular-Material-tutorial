@@ -1,0 +1,546 @@
+<div class="mat-display-1">the biggest text</div>
+<h1>Hello Angular Material</h1> <br> <br>
+<button mat-raised-button> Hello World</button> <br> <br>
+<button mat-stroked-button>Hi Jennie</button> <br> <br>
+<button mat-icon-button> </button> <br> <br>
+
+<button mat-button color="accent">Accent</button> <br> <br>
+
+
+<div class="mat-h1"> This is a heading for h1</div>
+<div class="mat-title">Heading for h2</div>
+<div class="mat-subheading-1">
+  Heading for h3
+</div>
+<div class="mat-subheading-1">for h4</div> <br> <br>
+
+
+<div class="mat-display-3">display 3</div>
+<div class="mat-display-2">display 2</div>
+<div class="mat-display-1">display 1</div>
+
+<h1 class="mat-display-1">Jackdaws love my big sphinx of quartz</h1>
+<h2 class="mat-h2">the quick brown fox jumps over the lazy dog</h2>
+
+
+<div class="mat-body-1"> this is body text</div>
+<div class="mat-body-2"> this is bold body text</div>
+<div class="mat-caption"> this is body text</div> <br> <br> <br>
+
+
+<h6 class="md-display-4">Hi</h6>
+<h1 class="md-display-3">Headline</h1>
+<h2 class="md-display-1">Headline</h2>
+<h3 class="md-headline">Headline</h3>
+
+<div class="mat-typography">
+  <h1>This heading is for h1</h1>
+  <h2>This heading is for h2</h2>
+  <h3>This heading is for h3</h3>
+  <h4>This heading is for h4</h4>
+</div>
+
+<!-- 
+<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+  <ngb-panel title="Simple">
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+      <span>&#9733; <b>Fancy</b> title &#9733;</span>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel title="Disabled" [disabled]="true">
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion> -->
+
+<!-- 
+
+<form class="row row-cols-sm-auto">
+  <div class="col-12">
+    <div class="input-group">
+      <input class="form-control" placeholder="yyyy-mm-dd"
+             name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker">
+      <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button"></button>
+    </div>
+  </div>
+</form>
+
+<hr/>
+<pre>Model: {{ model | json }}</pre>
+
+<ngb-alert class="mt-3 mb-0" type="info" [dismissible]="false">
+  You must provide the icon for the button. This allows you
+  to choose an icon that matches your application's style.
+  In this example, the icon is set via a CSS class.
+</ngb-alert> -->
+
+
+
+
+<!-- <ngb-datepicker #dp (dateSelect)="onDateSelection($event)" [displayMonths]="2" [dayTemplate]="t" outsideDays="hidden">
+</ngb-datepicker>
+
+<ng-template #t let-date let-focused="focused">
+  <span class="custom-day"
+        [class.focused]="focused"
+        [class.range]="isRange(date)"
+        [class.faded]="isHovered(date) || isInside(date)"
+        (mouseenter)="hoveredDate = date"
+        (mouseleave)="hoveredDate = null">
+    {{ date.day }}
+  </span>
+</ng-template>
+
+<hr>
+
+<pre>From: {{ fromDate | json }} </pre>
+<pre>To: {{ toDate | json }} </pre>
+
+ -->
+
+<mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+
+<p>You have received a file called "cat-picture.jpeg".</p>
+
+<!-- <button mat-raised-button (click)="openBottomSheet()">Open file</button> -->
+
+
+<h3>Select just one option: Disabilities?</h3>
+<mat-button-toggle-group name="favoriteColor" aria-label="Favorite Color">
+  <mat-button-toggle value="red">Blind</mat-button-toggle>
+  <mat-button-toggle value="green">Deaf</mat-button-toggle>
+  <mat-button-toggle value="blue">Autism</mat-button-toggle>
+</mat-button-toggle-group>
+
+<h3>Select Hobbies</h3>
+<mat-button-toggle-group name="ingredients" aria-label="Ingredients" multiple #toggleGroup="matButtonToggleGroup">
+  <mat-button-toggle value="Food">Food</mat-button-toggle>
+  <mat-button-toggle value="Travel">Travel</mat-button-toggle>
+  <mat-button-toggle value="Skating">Skating</mat-button-toggle>
+</mat-button-toggle-group> <br>
+{{toggleGroup.value}}
+<br> <br>
+
+<mat-button-toggle #toggleBtn checked disable> Toggle</mat-button-toggle>
+{{toggleBtn.checked}}
+
+<mat-icon aria-hidden="false" aria-label="Example home icon" color="primary">home</mat-icon> <br> <br>
+
+<mat-icon> 3d_rotation </mat-icon>
+<span matBadge="5">Notifications</span> <br> <br>
+<span matBadge="5" matBadgePosition="below before">Notifications</span> <br> <br>
+<span matBadge="5" matBadgePosition="above before">Notifications</span> <br> <br>
+
+<span matBadge="5" matBadgePosition="above after" matBadgeSize="small" matBadgeColor="accent">Notifications</span> <br>
+<br>
+
+<span matBadge="5" matBadgePosition="above after" matBadgeSize="small" matBadgeColor="warn"
+  matBadgeOverlap="false">Notifications</span> <br> <br>
+
+<!-- overlap badges for icons only and noot for texts -->
+<!-- binding values and conditional rendering. To bind the value of a badge, use property binding -->
+
+<span [matBadge]="notifications" matBadgePosition="above after" matBadgeSize="small" matBadgeColor="warn"
+  matBadgeOverlap="false">Notifications</span>
+
+<!-- to conditionally render notifications based on its value, eg if it's = 0 showing it makes no sense, so we rather hide it. Use matBadgeHidden attribute and use the property binding -->
+
+<!-- <span [matBadgeHidden] ="notification = 0" matBadgePosition ="above after" matBadgeSize = "medium" matBadgeColor="accent" matBadgeOverlap = "false">Notifications</span>  NOt Working-->
+
+
+<h1> Progress Spinner</h1>
+<!-- import the MatProgresspinnerModule - it porvides 2 spinner componentss- mat progress spinner, mat spinner -->
+<mat-progress-spinner value="80"></mat-progress-spinner> <br>
+<mat-progress-spinner value="50"></mat-progress-spinner> <br>
+<mat-progress-spinner value="100"></mat-progress-spinner> <br>
+
+<!-- Progress spinner that never stops spinning 
+. Used to indicate that something is running in the background and the UI is busy-->
+
+<mat-spinner *ngIf="showSpinner" color="accent"></mat-spinner> <br>
+<button (click)="loadData()"> Load Data</button> <br>
+
+
+<!-- try using the spinner on file upload -->
+<!-- <input type="file" (click) = "loadData()">  Working-->
+
+<!-- Read progress bar indicator -->
+
+
+<h1> Using Toolbar as a navbar</h1>
+<!-- Naviagtion- navBar
+Add MatToolbarModule -->
+<mat-toolbar color="primary" class="navbar">
+  <div> Welcome</div>
+  <div>
+    <span>Home</span>
+    <span>Aboout</span>
+    <span>Contact</span>
+  </div>
+</mat-toolbar>
+<!-- A toolbar is used to create a navbar in Angular material -->
+
+<!-- SideNAV -->
+<h1> sidenav</h1>
+<!-- use 3 components,  mat-sidenav-container, mat-sidenav, mat-sidenav-content -->
+<!-- the side nav has modes of over, push, side. over is the default -->
+
+<!-- to open the sidenav, second method:you can also use the open and close  methods -->
+<!-- third method: toggle the sidenav by calling the toggle method, used with an hamburger icon  -->
+<mat-sidenav-container>
+  <mat-sidenav [(opened)] = "opened" (opened) = "log('opened')" (closed) ="log('closed')" mode = "side" #sidenav>Side nav
+     <mat-nav-list>
+      <a href="#" mat-list-item> Home</a>
+      <a href="#" mat-list-item> About</a>
+      <a href="#" mat-list-item> Contact</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+ <h1>Main Body</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut beatae ipsam dignissimos optio magni perspiciatis quisquam iste harum, quod velit aspernatur excepturi nemo, corrupti nam soluta voluptate ab numquam quidem praesentium ex, inventore molestias hic odio in. Eum, corporis. Placeat ullam, quae quaerat velit recusandae id repudiandae eveniet! Ad, architecto?</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est ad accusamus quibusdam ut tempore! Consequuntur perferendis commodi ex deserunt ducimus ut! Ratione modi iusto repellendus nam enim dignissimos, nostrum reiciendis atque deserunt vel, dolorem odit natus id totam dolores laborum minima labore? Facere officia odio quae quo ut impedit veritatis pariatur accusamus voluptatibus mollitia obcaecati, porro illum eaque libero dolore, provident inventore laborum est dicta at, eos reprehenderit nihil.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut beatae ipsam dignissimos optio magni perspiciatis quisquam iste harum, quod velit aspernatur excepturi nemo, corrupti nam soluta voluptate ab numquam quidem praesentium ex, inventore molestias hic odio in. Eum, corporis. Placeat ullam, quae quaerat velit recusandae id repudiandae eveniet! Ad, architecto?</p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, est ad accusamus quibusdam ut tempore! Consequuntur perferendis commodi ex deserunt ducimus ut! Ratione modi iusto repellendus nam enim dignissimos, nostrum reiciendis atque deserunt vel, dolorem odit natus id totam dolores laborum minima labore? Facere officia odio quae quo ut impedit veritatis pariatur accusamus voluptatibus mollitia obcaecati, porro illum eaque libero dolore, provident inventore laborum est dicta at, eos reprehenderit nihil.</p>
+
+  <button (click) ="opened = !opened"> Open Side nav</button>
+  <button (click) ="sidenav.open()">Open</button>
+  <button (click) ="sidenav.close()">Close</button>
+  <button (click) =" sidenav.toggle()">Toggle</button>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!-- Menu -->
+<mat-menu #appMenu = "matMenu" xPosition = "after" yPosition = "above">
+  <button mat-menu-item  [matMenuTriggerFor]= "subMenu1"> Frontend </button>
+  <button mat-menu-item   [matMenuTriggerFor]= "subMenu2"> Backend </button>
+  <button mat-menu-item   [matMenuTriggerFor]= "subMenu3"> Design </button>
+
+</mat-menu>
+
+<button mat-flat-button [matMenuTriggerFor] ="appMenu"> Menu</button> <br> <br> <br> <br>
+
+<mat-menu #subMenu1="matMenu">
+  <button mat-menu-item> Angular</button>
+  <button mat-menu-item>React</button>
+  <button mat-menu-item>Vue</button>
+</mat-menu>
+<mat-menu #subMenu2="matMenu">
+  <button mat-menu-item> PHP</button>
+  <button mat-menu-item>Laravel</button>
+</mat-menu>
+<mat-menu #subMenu3="matMenu">
+  <button mat-menu-item> no code tools</button>
+  <button mat-menu-item>Figma</button>
+</mat-menu>
+<!-- positioning of the menu: xPosition = "before or after" and yPosition ="above or below" -->
+
+<!-- List -->
+<mat-list dense>
+  <mat-list-item>Item 1</mat-list-item>
+  <mat-list-item>Item 2</mat-list-item>
+  <mat-list-item>Item 3</mat-list-item>
+</mat-list>
+<!-- to reduce the font size of the listt, use the dense attribute -->
+
+<!-- creating navigation list -->
+<mat-nav-list>
+  <a href="#" mat-list-item> Home</a>
+  <a href="#" mat-list-item> About</a>
+  <a href="#" mat-list-item> Home</a>
+</mat-nav-list>
+
+<!-- with mat icon -->
+<mat-list>
+  <mat-list-item>
+    <mat-icon matListIcon>home</mat-icon>
+    <h3 matline>Heading</h3>
+    <p matline> line</p>
+  </mat-list-item>
+<mat-divider></mat-divider>
+  <mat-list-item>
+    <mat-icon matListIcon>folder</mat-icon>
+    <h3 matline>Heading</h3>
+    <p matline> line</p>
+  </mat-list-item>
+</mat-list>
+
+<!-- material Grid list -->
+<mat-grid-list cols="2" rowHeight = "fit" style="height: 200px;" gutterSize="10px"> 
+  <mat-grid-tile>Tile 1</mat-grid-tile>
+  <mat-grid-tile>Tile 2</mat-grid-tile>
+  <mat-grid-tile>Tile 3</mat-grid-tile>
+  <mat-grid-tile>Tile 4</mat-grid-tile>
+</mat-grid-list>
+<!-- no. of rows is determined with the specified cols. When specifying the colspan make sure it doesn't exceed the cols specified, else it throws an error, colspan or rowspan can be used on the mat-grid-tile -->
+
+<!-- height of each row in the grid, by default, the height of a row is determined by the height of the column.  It can be changed using the rowheight: it can take just 3 values only : px, ratio  eg, 2:1 - the row height is half the column width, then the last value is fit-->
+<!-- guttersize for spacing btwn the tiles -->
+
+
+<!-- Expansion panels and Accordions -->
+<mat-expansion-panel>
+  <!-- every panel must contain a panel header -->
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Angular fundamentals
+    </mat-panel-title>
+    <mat-panel-description>
+      Total Duration: 3 Hours
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam aperiam dignissimos expedita cum optio blanditiis facilis culpa quo sequi?</p>
+  <mat-action-row>
+    <!-- mat-action-row floats its element to the right -->
+    <button mat-button> Enroll</button>
+  </mat-action-row>
+</mat-expansion-panel> <br> <br><br>
+
+<!-- accordions
+multiple expansion panels grouped together -->
+<h1 class="text-center" color="accent">Accordion</h1>
+<mat-accordion multi = "true" >
+  <!-- to make the previous panel open even hwile the new one is opened use: multi = "true" . To hide the arrow use hideToggle attribute -->
+  <mat-expansion-panel>
+    <!-- every panel must contain a panel header -->
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Angular Material Accordion
+      </mat-panel-title>
+      <mat-panel-description>
+        Total Duration: 2 Hours
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam aperiam dignissimos expedita cum optio blanditiis facilis culpa quo sequi?</p>
+    <mat-action-row>
+      <!-- mat-action-row floats its element to the right -->
+      <button mat-button> Enroll</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+  
+  <mat-expansion-panel>
+    <!-- every panel must contain a panel header -->
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Angular fundamentals
+      </mat-panel-title>
+      <mat-panel-description>
+        Total Duration: 3 Hours
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam aperiam dignissimos expedita cum optio blanditiis facilis culpa quo sequi?</p>
+    <mat-action-row>
+      <!-- mat-action-row floats its element to the right -->
+      <button mat-button> Enroll</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel>
+    <!-- every panel must contain a panel header -->
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Angular fundamentals
+      </mat-panel-title>
+      <mat-panel-description>
+        Total Duration: 3 Hours
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam aperiam dignissimos expedita cum optio blanditiis facilis culpa quo sequi?</p>
+    <mat-action-row>
+      <!-- mat-action-row floats its element to the right -->
+      <button mat-button> Enroll</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel>
+    <!-- every panel must contain a panel header -->
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Angular fundamentals
+      </mat-panel-title>
+      <mat-panel-description>
+        Total Duration: 3 Hours
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam aperiam dignissimos expedita cum optio blanditiis facilis culpa quo sequi?</p>
+    <mat-action-row>
+      <!-- mat-action-row floats its element to the right -->
+      <button mat-button> Enroll</button>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion> <br> <br>
+
+<!-- Cards -->
+<mat-card>
+  <mat-card-title>
+    Card title
+  </mat-card-title>
+  <mat-card-content>
+    Card Content 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit nostrum cupiditate esse, labore accusamus aperiam neque, earum tenetur quisquam quae pariatur sint dicta laudantium totam iure deserunt fugit doloremque.</p>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-flat-button>Login</button>
+  </mat-card-actions>
+</mat-card> <br> <br>
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Shiba Inu</mat-card-title>
+    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+      bred for hunting.
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card> <br> <br>
+<!-- can be used to create a login form, pricing section, user section -->
+
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>Input Details</mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <form>
+      <label for="name"> Name</label> <br>
+      <input type="text" placeholder="Enter Name"> <br>
+
+      <label for="name"> Password</label> <br>
+      <input type="text" placeholder="Enter password"> <br> <br> 
+      <label for="name">Write a Message </label> <br> <br>
+      <textarea name="message" id="message" cols="50" rows="10"></textarea>
+
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="primary">Login</button>
+  </mat-card-actions>
+</mat-card>
+
+<!-- Tabs -->
+<!-- Organize contents into different view where only one view is visible at a time -->
+
+<mat-tab-group #tabRef (selectedTabChange) = "logChange(tabRef.selectedIndex)">
+  <mat-tab label= "Angular"> Angular Content</mat-tab>
+  <mat-tab label= "React"> Angular Content</mat-tab>
+  <mat-tab label= "Vue"> Angular Content</mat-tab>
+</mat-tab-group>
+{{tabRef.selectedIndex}}
+ <br> <br>
+<!-- Stepper: it's of 2 types ho  rizontal and vertical -->
+<mat-horizontal-stepper >
+  <mat-step label ="Shipping Address">Shipping Address</mat-step>
+  <mat-step label = "Billing Address">Billing Address
+    <div>
+      <button mat-button matStepperPrevious> Back</button>
+
+      <button mat-button matStepperNext> Next</button>
+    </div>
+  </mat-step>
+  <mat-step label = "Place Order">Place Order</mat-step>
+</mat-horizontal-stepper>
+<!-- if you want the user to complete a step before going to the next, use Linear stepper;
+Steps: 1. Add the linear attr to the mat-horizontal -stepper 2: add completed="false"  to the inidivual steps -->
+
+
+<mat-horizontal-stepper linear >
+  <mat-step label ="Shipping Address" completed="true">Shipping Address</mat-step>
+  <mat-step label = "Billing Address" completed="false">Billing Address
+    <div>
+      <button mat-button matStepperPrevious> Back</button>
+
+      <button mat-button matStepperNext> Next</button>
+    </div>
+  </mat-step>
+  <mat-step label = "Place Order" completed = "true">Place Order</mat-step>
+</mat-horizontal-stepper>
+
+<mat-vertical-stepper linear >
+  <mat-step label ="Shipping Address" completed="true">Shipping Address</mat-step>
+  <mat-step label = "Billing Address" completed="false">Billing Address
+    <div>
+      <button mat-button matStepperPrevious> Back</button>
+
+      <button mat-button matStepperNext> Next</button>
+    </div>
+  </mat-step>
+  <mat-step label = "Place Order" completed = "true">Place Order</mat-step>
+</mat-vertical-stepper>
+
+<!-- input, textareas, select-- Formfield component -->
+
+
+
+<form class="example-form">
+  <mat-form-field class="example-full-width" appearance="fill" color="warn">
+    <mat-label>Favorite food</mat-label>
+    <input matInput placeholder="Ex. Pizza" value="Sushi">
+    <mat-hint align="end">Min 5 Characters</mat-hint>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="outline" color="accent">
+    <mat-label>Leave a comment</mat-label>
+    <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+  </mat-form-field>
+</form>
+<!-- the appearance of the mat-form-filed can be fill, leacy or standard -->
+
+<!-- check how to display error message -->
+
+
+<!-- Select -->
+<form>
+  <mat-form-field>
+    <mat-label>Select Department</mat-label>
+    <mat-select>
+      <mat-option> None</mat-option>
+      <mat-option value="mathematics">Mathematics</mat-option>
+      <mat-option value="english">English</mat-option>
+      <mat-option value="chemistry">Chemistry</mat-option>
+
+      <mat-option value="mathematics">Physics</mat-option>
+      <mat-option value="english">Biology</mat-option>
+      <mat-option value="chemistry">Agricultural Science</mat-option>
+
+      <mat-option value="mathematics">Law</mat-option>
+      <mat-option value="english">Biochemistry</mat-option>
+      <mat-option value="chemistry">Microbiology</mat-option>
+    </mat-select>
+</mat-form-field>
+<!-- {{selectedValue}} -->
+</form>
+<router-outlet></router-outlet>
